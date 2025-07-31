@@ -1,0 +1,46 @@
+# Xypher Project .gitignore
+# Only track src/, examples/, .vscode/, .github/, .cargo/, build.rs, cuda/, Cargo.toml, xypher.code-workspace
+
+# Ignore everything
+*
+
+# Except the following:
+!src/
+!examples/
+!.vscode/
+!.github/
+!.cargo/
+!build.rs
+!cuda/
+!Cargo.toml
+!xypher.code-workspace
+
+# Ignore target, build artifacts, logs, and temp files
+/target/
+/build/
+*.log
+*.tmp
+*.bak
+*.obj
+*.pdb
+*.md
+*.txt
+*.lock
+*.json
+*.rs.bak
+*.rs.txt
+
+# Ignore benches except for source
+!/benches/
+!/benches/*.rs
+
+# Ignore XTRA except for source
+!/XTRA/
+!/XTRA/*.rs
+
+# Ignore TASKS except for source
+!/TASKS/
+!/TASKS/*.rs
+
+# Ignore other workspace files
+!.gitignore
