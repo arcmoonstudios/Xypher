@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-# Xypher
-=======
 # Xypher
 
-Elite meta-semantic quantization engine with XUID provenance, high-performance SIMD, lock-free concurrency, and advanced error handling.
+Meta-semantic quantization engine with XUID provenance, high-performance SIMD, lock-free concurrency, and advanced error handling.
 
 ## Features
+
 - XUID-based quantization and semantic relationship discovery
 - Provenance tracking and SPARQL querying
 - CUDA acceleration and SIMD optimization
@@ -15,6 +13,7 @@ Elite meta-semantic quantization engine with XUID provenance, high-performance S
 - Comprehensive documentation and tests
 
 ## Quick Start
+
 ```sh
 # Clone the repo
 $ git clone git@github.com:arcmoonstudios/Xypher.git
@@ -29,6 +28,7 @@ $ cargo bench
 ```
 
 ## Directory Structure
+
 - `src/` — Core engine and modules
 - `cuda/` — CUDA kernels and wrappers
 - `benches/` — Performance benchmarks
@@ -38,6 +38,6 @@ $ cargo bench
 - `.vscode/` — Editor config
 
 ## License
+
 SPDX-License-Identifier: MIT OR Apache-2.0
 © 2025 ArcMoon Studios
->>>>>>> 7260ed6 (Add README.md to initial commit)
