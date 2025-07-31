@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win64-CUDA",
+            "includePath": [
+                "${workspaceFolder}\\cuda",
+                "${workspaceFolder}\\src",
+                "${workspaceFolder}\\benches",
+                "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\include",
+                "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\extras\\CUPTI\\include",
+                "C:\\Program Files\\NVIDIA\\CUDNN\\v9.11\\include\\12.9",
+                "C:\\Program Files\\NVIDIA\\CUDNN\\v9.11\\include"
+            ],
+            "defines": [
+                "_WIN64",
+                "_WINDOWS"
+            ],
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}\\cuda",
+                    "${workspaceFolder}\\src",
+                    "${workspaceFolder}\\benches"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
